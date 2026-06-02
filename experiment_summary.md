@@ -24,7 +24,7 @@ GraphRAG 노드에는 이미지 bytes, 위치(bbox), 주변 텍스트(surroundin
 | 2 | PyMuPDF 방안 2: 페이지 전체 렌더링 | `pymupdf/approach2/` | 국사교과서, 통계기초 |
 | 3 | PyMuPDF 방안 3: 이미지 블록 크롭 + 메타데이터 | `pymupdf/approach3/` | 국사교과서, 통계기초 |
 | 4 | PyMuPDF + GPT-4o Vision: 이미지 → GraphRAG 노드 | `pymupdf/gpt/` | 통계기초 (방안 3 결과물 사용) |
-| 5 | Document Intelligence + GPT-4o Vision Fallback: 이미지 영역 감지 | `document-intelligence/` | 국사교과서 |
+| 5 | Document Intelligence + GPT-4o Vision Fallback: 이미지 영역 감지 | `document-intelligence/` | 국사교과서, 통계기초 |
 
 ---
 
@@ -68,6 +68,7 @@ get_text("dict") → 블록 목록
 
 - bbox + surrounding_text를 함께 획득 → GraphRAG 노드 연결 기반 확보
 - 텍스트 레이어 없는 스캔 PDF에서는 surrounding_text가 빈 문자열
+- **크롭 기준: PDF 구조(메타데이터)** — PDF가 "여기에 이미지가 있다"고 명시한 래스터 이미지 블록만 감지. 벡터로 그린 차트·도형은 블록으로 등록되지 않아 감지 불가. 대신 좌표가 PDF 메타데이터에서 직접 나오므로 bbox 정밀도 높음
 
 ### 방안 4 — GPT-4o Vision → GraphRAG 노드 변환
 
@@ -104,6 +105,7 @@ Document Intelligence prebuilt-layout
 
 - DI: bbox·캡션 제공, 이미지 타입 미제공 (`type = "other"` 고정)
 - GPT: bbox·캡션·타입 동시 제공 (`photo`, `diagram`, `chart`, `map`, `other`)
+- **크롭 기준: 시각적 레이아웃 분석** — 렌더링된 페이지 이미지를 AI로 분석해 figure처럼 보이는 영역을 감지. 래스터·벡터 구분 없이 감지 가능하나 AI 판단이므로 bbox 정밀도는 방안 3보다 낮음
 
 ---
 
@@ -164,6 +166,21 @@ Document Intelligence prebuilt-layout
 | 2. 페이지 렌더링 | 50개 PNG (1191×1684) | 48개 PNG (1920×1080) | 8.727초 | 2.987초 |
 | 3. 블록 크롭 | 100개 PNG | 14개 PNG | 7.437초 | 0.636초 |
 
+### 방안 5 (Document Intelligence + Vision Fallback) 수치 비교
+
+| 항목 | 국사교과서 (스캔) | 통계기초 (디지털) |
+|------|:-----------------:|:-----------------:|
+| 총 추출 이미지 | — | **23개** |
+| DI 단독 감지 | — | 14개 (13페이지) |
+| Vision fallback 감지 | — | 9개 (7페이지) |
+| DI 실패율 | — | **73%** (35/48페이지) |
+| 캡션 추출 (DI) | — | 0개 (모두 `""`) |
+| 캡션 생성 (Vision) | — | 6개 |
+| type 분류 (DI) | — | 모두 `other` |
+| type 분류 (Vision) | — | 모두 `chart` |
+
+> 국사교과서는 result/ 폴더에 결과 있음 (스캔 PDF라 DI가 헤더·배경 이미지 위주 감지)
+
 ### PDF 유형별 방안 3 surrounding_text 확보율
 
 | PDF | surrounding_text 확보율 | 원인 |
@@ -177,9 +194,10 @@ Document Intelligence prebuilt-layout
 |------|:------:|:------:|:------:|:------:|:------:|
 | 이미지 bytes | ✅ | ✅ | ✅ | ✅ (입력) | ✅ |
 | 이미지 bbox | ❌ | ❌ | ✅ | ✅ | ✅ |
-| 캡션/개념 | ❌ | ❌ | ❌ | ✅ | ✅ |
+| 캡션/개념 | ❌ | ❌ | ❌ | ✅ | △ (Vision만) |
 | surrounding_text | ❌ | ❌ | ✅ | ✅ (활용) | ❌ |
 | 텍스트-이미지 연결 | ❌ | ❌ | △ | ✅ | △ |
+| 벡터 차트 감지 | ❌ | ✅ | ❌ | ❌ | ✅ (Vision) |
 | 스캔 PDF 대응 | △ | ✅ | △ | △ | ✅ |
 | 비용 | 무료 | 무료 | 무료 | 유료 | 유료 |
 
@@ -191,8 +209,14 @@ Document Intelligence prebuilt-layout
 
 3. **Document Intelligence 단독으로 스캔 PDF figures 검출 실패 가능**: 페이지 전체가 이미지인 경우 레이아웃 분석이 동작하지 않아 GPT-4o Vision fallback이 현실적 보완책.
 
-4. **권장 파이프라인**:
-   - 디지털 PDF → **방안 3 + 방안 4** (PyMuPDF 크롭 + GPT-4o Vision 노드 변환)
+4. **방안 5는 디지털 슬라이드 PDF에서 커버리지 우수하나 최적은 아님**: 통계기초.pdf 기준 23개 감지(방안 3의 14개 대비 9개 추가). 추가 9개는 벡터 기반 차트로 방안 3이 놓친 영역. 단, DI 실패율 73%로 Vision fallback 의존도가 높고, 캡션·타입은 Vision 경로에서만 부분 제공됨.
+
+5. **방안 3 vs 방안 5 (통계기초 기준)**:
+   - 방안 3: 14개, surrounding_text 100%, 캡션 없음, 래스터 이미지만 감지
+   - 방안 5: 23개, surrounding_text 없음, 캡션 일부 생성, 벡터 차트까지 감지
+
+6. **권장 파이프라인**:
+   - 디지털 PDF → **방안 3 + 방안 4** (surrounding_text 활용 GraphRAG 노드 변환)
    - 스캔 PDF → **방안 5** (Document Intelligence + GPT-4o Vision Fallback)
 
 ### 비용 추정 (통계기초.pdf 기준, 방안 4)

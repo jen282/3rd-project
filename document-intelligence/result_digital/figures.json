@@ -1,0 +1,301 @@
+[
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      430,
+      1920,
+      1080
+    ],
+    "caption": "",
+    "type": "chart",
+    "img_path": "img/page003_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      60,
+      183,
+      1815,
+      951
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page004_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      278,
+      668,
+      1544,
+      995
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page017_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      932,
+      610,
+      1891,
+      1051
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page018_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 24,
+    "bbox": [
+      1260,
+      610,
+      1907,
+      1065
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page024_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 25,
+    "bbox": [
+      1106,
+      489,
+      1847,
+      1005
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page025_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 26,
+    "bbox": [
+      1207,
+      645,
+      1693,
+      1018
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page026_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 27,
+    "bbox": [
+      1170,
+      556,
+      1859,
+      1023
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page027_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 28,
+    "bbox": [
+      1062,
+      479,
+      1865,
+      1039
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page028_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 29,
+    "bbox": [
+      888,
+      709,
+      1845,
+      1043
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page029_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 30,
+    "bbox": [
+      1174,
+      623,
+      1870,
+      1029
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page030_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 34,
+    "bbox": [
+      1076,
+      443,
+      1881,
+      1037
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page034_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 35,
+    "bbox": [
+      217,
+      714,
+      1689,
+      836
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page035_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 38,
+    "bbox": [
+      865,
+      668,
+      1352,
+      945
+    ],
+    "caption": "",
+    "type": "chart",
+    "img_path": "img/page038_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 39,
+    "bbox": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "caption": "가설 검정 방법",
+    "type": "chart",
+    "img_path": "img/page039_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 40,
+    "bbox": [
+      85,
+      180,
+      1835,
+      695
+    ],
+    "caption": "가설 검정 방법 – t 검정",
+    "type": "chart",
+    "img_path": "img/page040_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 41,
+    "bbox": [
+      0,
+      276,
+      1366,
+      768
+    ],
+    "caption": "",
+    "type": "chart",
+    "img_path": "img/page041_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 42,
+    "bbox": [
+      0,
+      495,
+      1366,
+      768
+    ],
+    "caption": "분산 분석 개요 및 예시",
+    "type": "chart",
+    "img_path": "img/page042_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 44,
+    "bbox": [
+      1101,
+      759,
+      1398,
+      903
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page044_img00.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 44,
+    "bbox": [
+      1423,
+      759,
+      1559,
+      903
+    ],
+    "caption": "",
+    "type": "other",
+    "img_path": "img/page044_img01.png",
+    "source": "DocumentIntelligence"
+  },
+  {
+    "page": 47,
+    "bbox": [
+      58,
+      476,
+      453,
+      724
+    ],
+    "caption": "τ = 0.2",
+    "type": "chart",
+    "img_path": "img/page047_img00.png",
+    "source": "Vision"
+  },
+  {
+    "page": 47,
+    "bbox": [
+      486,
+      476,
+      861,
+      591
+    ],
+    "caption": "τ = 1",
+    "type": "chart",
+    "img_path": "img/page047_img01.png",
+    "source": "Vision"
+  },
+  {
+    "page": 47,
+    "bbox": [
+      486,
+      609,
+      861,
+      724
+    ],
+    "caption": "τ = -1",
+    "type": "chart",
+    "img_path": "img/page047_img02.png",
+    "source": "Vision"
+  }
+]

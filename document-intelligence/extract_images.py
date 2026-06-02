@@ -1,5 +1,5 @@
 """
-국사교과서 PDF에서 이미지 영역을 크롭하고 4가지 정보를 파싱한다.
+PDF에서 이미지 영역을 크롭하고 4가지 정보를 파싱한다.
   - page      : 페이지 번호 (0-based)
   - bbox      : 픽셀 좌표 [x0, y0, x1, y1]
   - caption   : 이미지 근처 캡션 텍스트
@@ -10,8 +10,13 @@
 흐름:
   1. 페이지를 고해상도 PNG로 변환 → Document Intelligence prebuilt-layout
   2. figures 없으면 GPT-4o Vision fallback
+
+사용법:
+  python extract_images.py                          # 기본값 (국사교과서, result/)
+  python extract_images.py --pdf 통계기초.pdf --result-dir result_digital
 """
 
+import argparse
 import base64
 import io
 import json
@@ -31,16 +36,22 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 
 DI_ENDPOINT = os.environ["DOCUMENT_INTELLIGENCE_ENDPOINT"]
 DI_KEY      = os.environ["DOCUMENT_INTELLIGENCE_KEY"]
-OAI_ENDPOINT = os.environ["OPEN_AI_ENDPOINT"]
+OAI_ENDPOINT = os.environ["OPEN_AI_ENDPOINT"].rstrip("/").removesuffix("/openai/v1")
 OAI_KEY      = os.environ["OPEN_AI_KEY"]
 OAI_DEPLOY   = os.environ["OPEN_AI_DEPLOYMENT_NAME"]
 
-PDF_PATH   = Path(__file__).parent.parent / "data" / "국사교과서.pdf"
-RESULT_DIR = Path(__file__).parent / "result"
+_parser = argparse.ArgumentParser()
+_parser.add_argument("--pdf",        default="국사교과서.pdf")
+_parser.add_argument("--result-dir", default="result")
+_parser.add_argument("--max-pages",  type=int, default=15)
+_args = _parser.parse_args()
+
+PDF_PATH   = Path(__file__).parent.parent / "data" / _args.pdf
+RESULT_DIR = Path(__file__).parent / _args.result_dir
 IMG_DIR    = RESULT_DIR / "img"
 JSON_PATH  = RESULT_DIR / "figures.json"
 
-MAX_PAGES  = 15          # 첫 N 페이지만 처리
+MAX_PAGES  = _args.max_pages
 SCALE      = 2.0         # 렌더링 배율 (2x ≈ 144 dpi) — DI 50MB 제한 대응
 MIN_AREA   = 50 * 50     # 너무 작은 영역 제외 (px²)
 
