@@ -1,0 +1,50 @@
+{
+  "pdf_path": "../../data/국사교과서.pdf",
+  "total_pages": 50,
+  "processed_pages": 5,
+  "scale": 2,
+  "lang": "kor+eng",
+  "pages": [
+    {
+      "page": 0,
+      "char_count": 60,
+      "word_count": 16,
+      "avg_confidence": 79.2,
+      "elapsed_sec": 0.61,
+      "saved_as": "result_scan/page000.txt"
+    },
+    {
+      "page": 1,
+      "char_count": 307,
+      "word_count": 79,
+      "avg_confidence": 88.7,
+      "elapsed_sec": 1.16,
+      "saved_as": "result_scan/page001.txt"
+    },
+    {
+      "page": 2,
+      "char_count": 600,
+      "word_count": 156,
+      "avg_confidence": 78.5,
+      "elapsed_sec": 1.73,
+      "saved_as": "result_scan/page002.txt"
+    },
+    {
+      "page": 3,
+      "char_count": 1087,
+      "word_count": 271,
+      "avg_confidence": 90.5,
+      "elapsed_sec": 3.16,
+      "saved_as": "result_scan/page003.txt"
+    },
+    {
+      "page": 4,
+      "char_count": 908,
+      "word_count": 222,
+      "avg_confidence": 89.7,
+      "elapsed_sec": 3.01,
+      "saved_as": "result_scan/page004.txt"
+    }
+  ],
+  "total_elapsed_sec": 9.67
+}

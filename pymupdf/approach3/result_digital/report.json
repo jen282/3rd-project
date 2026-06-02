@@ -1,0 +1,290 @@
+{
+  "pdf_path": "../../data/통계기초.pdf",
+  "total_pages": 48,
+  "scale": 2,
+  "crops": [
+    {
+      "page": 17,
+      "block_index": 0,
+      "bbox_pdf": [
+        140.2100067138672,
+        334.05987548828125,
+        770.6000366210938,
+        539.9998168945312
+      ],
+      "bbox_px": [
+        280,
+        668,
+        1541,
+        1079
+      ],
+      "width_px": 1261,
+      "height_px": 411,
+      "surrounding_text": "• 평균이 중앙값보다 작음. (예: 시험 점수 등) • 분포의 꼬리가 왼쪽(음의 방향)으로 길게 늘어져 있는 경우 • 음의 왜도 (Negative Skewness): • 평균이 중앙값보다 큼. (예: 급여, 주택 가격 등)",
+      "saved_as": "result_digital/page017_block00.png"
+    },
+    {
+      "page": 18,
+      "block_index": 0,
+      "bbox_pdf": [
+        465.2200012207031,
+        297.50750732421875,
+        951.219970703125,
+        533.20751953125
+      ],
+      "bbox_px": [
+        930,
+        595,
+        1902,
+        1066
+      ],
+      "width_px": 972,
+      "height_px": 471,
+      "surrounding_text": "• 극단적인 값이 덜 발생 https://365datascience.com/calculators/kurtosis-calculator/ • 정규 분포보다 평평하고 꼬리가 얇은 분포 • 음의 첨도 (Platykurtic): (Kurtosis < 3)",
+      "saved_as": "result_digital/page018_block00.png"
+    },
+    {
+      "page": 24,
+      "block_index": 0,
+      "bbox_pdf": [
+        624.0,
+        300.249755859375,
+        960.0,
+        539.999755859375
+      ],
+      "bbox_px": [
+        1248,
+        600,
+        1920,
+        1079
+      ],
+      "width_px": 672,
+      "height_px": 479,
+      "surrounding_text": "• 예: 정규 분포, 지수 분포, 카이제곱 분포. • 확률밀도함수(Probability Density Function : PDF)로 표현 • 확률 변수가 취할 수 있는 값이 연속적인 경우. • 연속 확률 분포 (Continuous Probability Distribution)",
+      "saved_as": "result_digital/page024_block00.png"
+    },
+    {
+      "page": 25,
+      "block_index": 0,
+      "bbox_pdf": [
+        553.3200073242188,
+        224.64498901367188,
+        927.5,
+        505.2749938964844
+      ],
+      "bbox_px": [
+        1106,
+        449,
+        1855,
+        1010
+      ],
+      "width_px": 749,
+      "height_px": 561,
+      "surrounding_text": "• 예시 : • 동전 던지기(앞면/뒷면) • 기대값 : 𝐸𝑋= 𝑝 • 제품 검수(불량/정상)",
+      "saved_as": "result_digital/page025_block00.png"
+    },
+    {
+      "page": 26,
+      "block_index": 0,
+      "bbox_pdf": [
+        588.22998046875,
+        309.1199951171875,
+        915.8399658203125,
+        519.2490234375
+      ],
+      "bbox_px": [
+        1176,
+        618,
+        1831,
+        1038
+      ],
+      "width_px": 655,
+      "height_px": 420,
+      "surrounding_text": "동전을 20번 던져서 앞면이 나오는 횟수. • 동전 여러 번 던지기 : • 예시 : • 분산 : 𝑉𝑎𝑟𝑋= 𝑛𝑝(1 −𝑝)",
+      "saved_as": "result_digital/page026_block00.png"
+    },
+    {
+      "page": 27,
+      "block_index": 0,
+      "bbox_pdf": [
+        587.75,
+        270.0,
+        927.5,
+        510.0
+      ],
+      "bbox_px": [
+        1175,
+        540,
+        1855,
+        1020
+      ],
+      "width_px": 680,
+      "height_px": 480,
+      "surrounding_text": "• 콜센터 : 1시간 동안 걸려오는 전화의 수 • 교통량 : 특정 도로에서 1시간 동안 • 예시 : 발생하는 교통사고 수",
+      "saved_as": "result_digital/page027_block00.png"
+    },
+    {
+      "page": 28,
+      "block_index": 0,
+      "bbox_pdf": [
+        531.8200073242188,
+        236.8599853515625,
+        934.7000122070312,
+        519.2490234375
+      ],
+      "bbox_px": [
+        1063,
+        473,
+        1869,
+        1038
+      ],
+      "width_px": 806,
+      "height_px": 565,
+      "surrounding_text": "99.7%가 𝜇± 3𝜎 범위 내에 위치함 • 확률변수의 68%가 𝜇± 𝜎 , 95%가 𝜇± 2𝜎, • 예시 : • 평균 𝜇 를 중심으로 대칭",
+      "saved_as": "result_digital/page028_block00.png"
+    },
+    {
+      "page": 29,
+      "block_index": 0,
+      "bbox_pdf": [
+        425.0199890136719,
+        324.00433349609375,
+        948.5,
+        536.2943115234375
+      ],
+      "bbox_px": [
+        850,
+        648,
+        1897,
+        1072
+      ],
+      "width_px": 1047,
+      "height_px": 424,
+      "surrounding_text": "• 콜센터 대기 시간 : 다음 전화가 걸려올 때까지의 시간. • 예시 : 𝑓𝑥= 𝜆𝑒 −𝜆𝑥 , 𝑥≥0 • 확률밀도함수 (PDF) : ( 𝜆 는 사건 발생률 )",
+      "saved_as": "result_digital/page029_block00.png"
+    },
+    {
+      "page": 30,
+      "block_index": 0,
+      "bbox_pdf": [
+        581.0700073242188,
+        304.7200012207031,
+        943.72998046875,
+        519.25
+      ],
+      "bbox_px": [
+        1162,
+        609,
+        1887,
+        1038
+      ],
+      "width_px": 725,
+      "height_px": 429,
+      "surrounding_text": "• 분산 분석 : 여러 집단의 분산을 비교 기대 분포와 일치하는지 검정 • 적합도 검정 : 관찰된 데이터가 • 예시 :",
+      "saved_as": "result_digital/page030_block00.png"
+    },
+    {
+      "page": 34,
+      "block_index": 0,
+      "bbox_pdf": [
+        515.4299926757812,
+        209.15603637695312,
+        960.0,
+        529.6160278320312
+      ],
+      "bbox_px": [
+        1030,
+        418,
+        1920,
+        1059
+      ],
+      "width_px": 890,
+      "height_px": 641,
+      "surrounding_text": "• 모수가 신뢰구간에 포함되지 않을 확률 • 유의수준 𝛼 : • 90%, 95%, 99%가 자주 사용됨 • 𝑃𝑎≤𝜇≤𝑏= 1 −𝛼",
+      "saved_as": "result_digital/page034_block00.png"
+    },
+    {
+      "page": 44,
+      "block_index": 0,
+      "bbox_pdf": [
+        542.47998046875,
+        364.72320556640625,
+        948.719970703125,
+        533.80322265625
+      ],
+      "bbox_px": [
+        1084,
+        729,
+        1897,
+        1067
+      ],
+      "width_px": 813,
+      "height_px": 338,
+      "surrounding_text": "• 약한 상관관계 : 상관계수의 절댓값이 0.3 미만 • 중간 상관관계 : 상관계수의 절댓값이 0.3~0.7 사이 • 강한 상관관계 : 상관계수의 절댓값이 0.7 이상 • 상관관계의 강도",
+      "saved_as": "result_digital/page044_block00.png"
+    },
+    {
+      "page": 47,
+      "block_index": 0,
+      "bbox_pdf": [
+        43.83100128173828,
+        380.83599853515625,
+        437.031005859375,
+        439.4100036621094
+      ],
+      "bbox_px": [
+        87,
+        761,
+        874,
+        878
+      ],
+      "width_px": 787,
+      "height_px": 117,
+      "surrounding_text": "𝜏= 1 𝜏= 0.2 𝜏= −1 • 예시 : 직무 수행 순위와 승진 순위 간의 관계",
+      "saved_as": "result_digital/page047_block00.png"
+    },
+    {
+      "page": 47,
+      "block_index": 1,
+      "bbox_pdf": [
+        499.2200012207031,
+        351.5459899902344,
+        898.1099853515625,
+        410.1199951171875
+      ],
+      "bbox_px": [
+        998,
+        703,
+        1796,
+        820
+      ],
+      "width_px": 798,
+      "height_px": 117,
+      "surrounding_text": "𝜏= 1 𝜏= 0.2 • 예시 : 직무 수행 순위와 승진 순위 간의 관계 • 단점 : 계산이 복잡하며, 해석이 어려울 수 있음 (특히 데이터셋이 클 경우 계산 부담 증가)",
+      "saved_as": "result_digital/page047_block01.png"
+    },
+    {
+      "page": 47,
+      "block_index": 2,
+      "bbox_pdf": [
+        503.25,
+        443.3760070800781,
+        899.2099609375,
+        504.2929992675781
+      ],
+      "bbox_px": [
+        1006,
+        886,
+        1798,
+        1008
+      ],
+      "width_px": 792,
+      "height_px": 122,
+      "surrounding_text": "𝜏= 0.2 𝜏= −1 𝜏= 1 https://medium.com/@leejukyung/%EC%BC%84%EB%8B%AC%ED%83%80%EC%9A%B0-kendalltau-18fb90ba4e7",
+      "saved_as": "result_digital/page047_block02.png"
+    }
+  ],
+  "errors": [],
+  "total_crops": 14,
+  "elapsed_sec": 0.636
+}

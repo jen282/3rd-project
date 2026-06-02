@@ -1,0 +1,409 @@
+{
+  "source_pdf": "../../data/통계기초.pdf",
+  "total_nodes": 14,
+  "nodes": [
+    {
+      "concept": "왜도와 분포 유형",
+      "description": "데이터 분포에서 대칭 분포, 양의 왜도, 음의 왜도의 특성을 비교한 그림.",
+      "relations": [
+        {
+          "relation": "비교",
+          "target": "대칭 분포"
+        },
+        {
+          "relation": "비교",
+          "target": "양의 왜도"
+        },
+        {
+          "relation": "비교",
+          "target": "음의 왜도"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 17,
+        "bbox": [
+          140.2100067138672,
+          334.05987548828125,
+          770.6000366210938,
+          539.9998168945312
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page017_block00.png"
+      }
+    },
+    {
+      "concept": "첨도 분포 비교",
+      "description": "첨도에 따른 세 가지 분포 유형(Leptokurtic, Mesokurtic, Platykurtic)의 확률 밀도 차이를 나타냄.",
+      "relations": [
+        {
+          "relation": "관련 개념",
+          "target": "첨도 (Kurtosis)"
+        },
+        {
+          "relation": "관련 개념",
+          "target": "확률 분포 (Probability Distribution)"
+        }
+      ],
+      "type": "chart",
+      "source": {
+        "page": 18,
+        "bbox": [
+          465.2200012207031,
+          297.50750732421875,
+          951.219970703125,
+          533.20751953125
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page018_block00.png"
+      }
+    },
+    {
+      "concept": "확률 분포와 관계도",
+      "description": "다양한 확률 분포 간의 관계와 전이를 시각적으로 나타낸 다이어그램",
+      "relations": [
+        {
+          "relation": "파생",
+          "target": "Uniform"
+        },
+        {
+          "relation": "파생",
+          "target": "Bernoulli"
+        },
+        {
+          "relation": "파생",
+          "target": "Binomial"
+        },
+        {
+          "relation": "파생",
+          "target": "Geometric"
+        },
+        {
+          "relation": "파생",
+          "target": "Poisson"
+        },
+        {
+          "relation": "파생",
+          "target": "Exponential"
+        },
+        {
+          "relation": "파생",
+          "target": "Weibull"
+        },
+        {
+          "relation": "파생",
+          "target": "Normal (Gaussian)"
+        },
+        {
+          "relation": "파생",
+          "target": "Log Normal"
+        },
+        {
+          "relation": "파생",
+          "target": "Chi-Squared"
+        },
+        {
+          "relation": "파생",
+          "target": "Student's t"
+        },
+        {
+          "relation": "파생",
+          "target": "Gamma"
+        },
+        {
+          "relation": "파생",
+          "target": "Beta"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 24,
+        "bbox": [
+          624.0,
+          300.249755859375,
+          960.0,
+          539.999755859375
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page024_block00.png"
+      }
+    },
+    {
+      "concept": "베르누이 분포",
+      "description": "한 번의 시행에서 성공 확률이 p인 베르누이 확률 분포를 보여주는 다이어그램",
+      "relations": [
+        {
+          "relation": "예시",
+          "target": "동전 던지기(앞면/뒷면)"
+        },
+        {
+          "relation": "특징",
+          "target": "기대값: E(X) = p"
+        },
+        {
+          "relation": "응용",
+          "target": "제품 검수(불량/정상)"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 25,
+        "bbox": [
+          553.3200073242188,
+          224.64498901367188,
+          927.5,
+          505.2749938964844
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page025_block00.png"
+      }
+    },
+    {
+      "concept": "이항분포",
+      "description": "동전을 여러 번 던져 앞면이 나오는 횟수에 대한 이항분포의 히스토그램.",
+      "relations": [
+        {
+          "relation": "관련 수식",
+          "target": "𝑉𝑎𝑟𝑋= 𝑛𝑝(1 −𝑝)"
+        }
+      ],
+      "type": "chart",
+      "source": {
+        "page": 26,
+        "bbox": [
+          588.22998046875,
+          309.1199951171875,
+          915.8399658203125,
+          519.2490234375
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page026_block00.png"
+      }
+    },
+    {
+      "concept": "포아송 분포",
+      "description": "특정 시간 동안 발생하는 사건 수를 나타내는 히스토그램과 확률밀도함수 그래프",
+      "relations": [
+        {
+          "relation": "적용 사례",
+          "target": "콜센터에서의 전화 수"
+        },
+        {
+          "relation": "적용 사례",
+          "target": "특정 도로의 교통량"
+        },
+        {
+          "relation": "적용 사례",
+          "target": "발생하는 교통사고 수"
+        }
+      ],
+      "type": "chart",
+      "source": {
+        "page": 27,
+        "bbox": [
+          587.75,
+          270.0,
+          927.5,
+          510.0
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page027_block00.png"
+      }
+    },
+    {
+      "concept": "정규분포와 확률 범위",
+      "description": "정규분포에서 평균과 표준편차를 기준으로 한 데이터를 비율로 설명하는 그래프.",
+      "relations": [
+        {
+          "relation": "설명",
+          "target": "68-95-99.7 법칙"
+        },
+        {
+          "relation": "관련",
+          "target": "평균"
+        },
+        {
+          "relation": "관련",
+          "target": "표준편차"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 28,
+        "bbox": [
+          531.8200073242188,
+          236.8599853515625,
+          934.7000122070312,
+          519.2490234375
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page028_block00.png"
+      }
+    },
+    {
+      "concept": "지수 분포의 확률밀도함수",
+      "description": "콜센터 대기 시간과 같은 사건 간 시간의 확률 분포를 나타내는 지수 분포 그래프.",
+      "relations": [
+        {
+          "relation": "설명 대상",
+          "target": "콜센터 대기 시간"
+        },
+        {
+          "relation": "수학적 표현",
+          "target": "λe^(-λt)"
+        },
+        {
+          "relation": "관련 개념",
+          "target": "확률밀도함수"
+        }
+      ],
+      "type": "chart",
+      "source": {
+        "page": 29,
+        "bbox": [
+          425.0199890136719,
+          324.00433349609375,
+          948.5,
+          536.2943115234375
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page029_block00.png"
+      }
+    },
+    {
+      "concept": "카이제곱 분포의 모양과 자유도 관계",
+      "description": "자유도(n)에 따라 카이제곱 분포의 모양이 변화하는 것을 나타낸 그래프.",
+      "relations": [
+        {
+          "relation": "관련",
+          "target": "통계적 가설 검정"
+        }
+      ],
+      "type": "chart",
+      "source": {
+        "page": 30,
+        "bbox": [
+          581.0700073242188,
+          304.7200012207031,
+          943.72998046875,
+          519.25
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page030_block00.png"
+      }
+    },
+    {
+      "concept": "신뢰구간과 유의수준",
+      "description": "신뢰수준 1-𝛼와 신뢰구간에 대한 개념을 나타내는 정규분포 그림",
+      "relations": [
+        {
+          "relation": "설명",
+          "target": "신뢰수준"
+        },
+        {
+          "relation": "설명",
+          "target": "유의수준"
+        },
+        {
+          "relation": "포함",
+          "target": "정규분포"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 34,
+        "bbox": [
+          515.4299926757812,
+          209.15603637695312,
+          960.0,
+          529.6160278320312
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page034_block00.png"
+      }
+    },
+    {
+      "concept": "상관관계와 상관계수",
+      "description": "변수 간 상관관계의 방향성과 강도를 나타내는 상관계수(r)의 범위와 특징을 그래프로 설명",
+      "relations": [
+        {
+          "relation": "설명",
+          "target": "상관계수"
+        },
+        {
+          "relation": "범주",
+          "target": "상관관계 강도"
+        },
+        {
+          "relation": "구분",
+          "target": "음의 상관관계와 양의 상관관계"
+        }
+      ],
+      "type": "diagram",
+      "source": {
+        "page": 44,
+        "bbox": [
+          542.47998046875,
+          364.72320556640625,
+          948.719970703125,
+          533.80322265625
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page044_block00.png"
+      }
+    },
+    {
+      "concept": "키와 몸무게 순위 비교",
+      "description": "사람 A부터 E까지의 키와 몸무게 순위를 비교한 표",
+      "relations": [
+        {
+          "relation": "비교",
+          "target": "키와 몸무게 순위"
+        }
+      ],
+      "type": "table",
+      "source": {
+        "page": 47,
+        "bbox": [
+          43.83100128173828,
+          380.83599853515625,
+          437.031005859375,
+          439.4100036621094
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page047_block00.png"
+      }
+    },
+    {
+      "concept": "키와 몸무게 순위 데이터",
+      "description": "사람 A부터 E까지의 키와 몸무게에 대한 순위 데이터를 나타내는 표",
+      "relations": [
+        {
+          "relation": "관련 데이터",
+          "target": "순위 비교"
+        }
+      ],
+      "type": "table",
+      "source": {
+        "page": 47,
+        "bbox": [
+          499.2200012207031,
+          351.5459899902344,
+          898.1099853515625,
+          410.1199951171875
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page047_block01.png"
+      }
+    },
+    {
+      "concept": "켄달의 순위 상관 계수",
+      "description": "사람 A~E의 키와 몸무게 순위를 비교하여 순위 상관 관계를 분석하는 표",
+      "relations": [
+        {
+          "relation": "응용",
+          "target": "순위 상관 분석"
+        }
+      ],
+      "type": "table",
+      "source": {
+        "page": 47,
+        "bbox": [
+          503.25,
+          443.3760070800781,
+          899.2099609375,
+          504.2929992675781
+        ],
+        "image_path": "/Users/kyoungmin/ms_ai_school/3rd-project/rag-test/pymupdf/approach3/result_digital/page047_block02.png"
+      }
+    }
+  ],
+  "errors": []
+}

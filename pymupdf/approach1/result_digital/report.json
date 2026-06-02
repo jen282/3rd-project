@@ -1,0 +1,149 @@
+{
+  "pdf_path": "../../data/통계기초.pdf",
+  "total_pages": 48,
+  "images_found": [
+    {
+      "page": 17,
+      "img_index": 0,
+      "xref": 69,
+      "ext": "jpeg",
+      "width": 600,
+      "height": 231,
+      "size_bytes": 17913,
+      "saved_as": "result_digital/page017_img00.jpeg"
+    },
+    {
+      "page": 18,
+      "img_index": 0,
+      "xref": 72,
+      "ext": "png",
+      "width": 633,
+      "height": 307,
+      "size_bytes": 19947,
+      "saved_as": "result_digital/page018_img00.png"
+    },
+    {
+      "page": 24,
+      "img_index": 0,
+      "xref": 86,
+      "ext": "jpeg",
+      "width": 960,
+      "height": 685,
+      "size_bytes": 64104,
+      "saved_as": "result_digital/page024_img00.jpeg"
+    },
+    {
+      "page": 25,
+      "img_index": 0,
+      "xref": 95,
+      "ext": "png",
+      "width": 700,
+      "height": 525,
+      "size_bytes": 5302,
+      "saved_as": "result_digital/page025_img00.png"
+    },
+    {
+      "page": 26,
+      "img_index": 0,
+      "xref": 99,
+      "ext": "png",
+      "width": 343,
+      "height": 220,
+      "size_bytes": 2152,
+      "saved_as": "result_digital/page026_img00.png"
+    },
+    {
+      "page": 27,
+      "img_index": 0,
+      "xref": 102,
+      "ext": "png",
+      "width": 453,
+      "height": 320,
+      "size_bytes": 5137,
+      "saved_as": "result_digital/page027_img00.png"
+    },
+    {
+      "page": 28,
+      "img_index": 0,
+      "xref": 106,
+      "ext": "png",
+      "width": 759,
+      "height": 532,
+      "size_bytes": 103732,
+      "saved_as": "result_digital/page028_img00.png"
+    },
+    {
+      "page": 29,
+      "img_index": 0,
+      "xref": 110,
+      "ext": "png",
+      "width": 397,
+      "height": 161,
+      "size_bytes": 7614,
+      "saved_as": "result_digital/page029_img00.png"
+    },
+    {
+      "page": 30,
+      "img_index": 0,
+      "xref": 114,
+      "ext": "png",
+      "width": 511,
+      "height": 286,
+      "size_bytes": 20791,
+      "saved_as": "result_digital/page030_img00.png"
+    },
+    {
+      "page": 34,
+      "img_index": 0,
+      "xref": 123,
+      "ext": "jpeg",
+      "width": 480,
+      "height": 346,
+      "size_bytes": 14775,
+      "saved_as": "result_digital/page034_img00.jpeg"
+    },
+    {
+      "page": 44,
+      "img_index": 0,
+      "xref": 146,
+      "ext": "png",
+      "width": 740,
+      "height": 308,
+      "size_bytes": 26390,
+      "saved_as": "result_digital/page044_img00.png"
+    },
+    {
+      "page": 47,
+      "img_index": 0,
+      "xref": 155,
+      "ext": "png",
+      "width": 678,
+      "height": 101,
+      "size_bytes": 15403,
+      "saved_as": "result_digital/page047_img00.png"
+    },
+    {
+      "page": 47,
+      "img_index": 1,
+      "xref": 156,
+      "ext": "png",
+      "width": 681,
+      "height": 100,
+      "size_bytes": 16053,
+      "saved_as": "result_digital/page047_img01.png"
+    },
+    {
+      "page": 47,
+      "img_index": 2,
+      "xref": 157,
+      "ext": "png",
+      "width": 676,
+      "height": 104,
+      "size_bytes": 14981,
+      "saved_as": "result_digital/page047_img02.png"
+    }
+  ],
+  "errors": [],
+  "total_images": 14,
+  "elapsed_sec": 0.05
+}
