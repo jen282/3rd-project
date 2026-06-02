@@ -1,0 +1,329 @@
+{
+  "pdf_path": "../data/통계기초.pdf",
+  "scale": 2,
+  "total_tables": 6,
+  "total_vector_images": 7,
+  "elapsed_sec": 3.929,
+  "items": [
+    {
+      "type": "table",
+      "page": 3,
+      "bbox": [
+        105.0,
+        279.98,
+        827.0,
+        498.051
+      ],
+      "rows": 3,
+      "cols": 2,
+      "data": [
+        [
+          "기술 통계",
+          "추론 통계"
+        ],
+        [
+          "• 데이터에 대한 분석 결과인 수치들을\n활용하여 데이터 집합의 특성을 설명",
+          "• 모집단에서 추출한 표본을 통해 모집단\n의 특성을 표현"
+        ],
+        [
+          "• 평균값, 분산, 표준편차, 범위\n• 히스토그램, 파이차트, 상자도표",
+          "• 지방선거 출구조사\n• 제품 불량율 조사"
+        ]
+      ],
+      "surrounding_text": "비교하는 방법을 연구하는 학문",
+      "img_path": "img/page003_table00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 4,
+      "bbox": [
+        106.5,
+        100.3,
+        865.2,
+        423.4
+      ],
+      "area_pts": 245102.4,
+      "vector_obj_count": 14,
+      "surrounding_text": "통계량\n: 모집단의 분포를\n(statistic)\n결정하는 정보",
+      "img_path": "img/page004_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 11,
+      "bbox": [
+        458.6,
+        317.3,
+        644.2,
+        420.7
+      ],
+      "area_pts": 19190.2,
+      "vector_obj_count": 5,
+      "surrounding_text": "• 주로 비율이나 속도 데이터에서 사용.",
+      "img_path": "img/page011_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 14,
+      "bbox": [
+        320.8,
+        297.1,
+        556.3,
+        537.5
+      ],
+      "area_pts": 56619.2,
+      "vector_obj_count": 3,
+      "surrounding_text": "• 표준편차(Standard Deviation)",
+      "img_path": "img/page014_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 26,
+      "bbox": [
+        641.0,
+        205.8,
+        916.0,
+        281.0
+      ],
+      "area_pts": 20685.0,
+      "vector_obj_count": 5,
+      "surrounding_text": "• 확률변수 𝑋 : 𝑛 번의 독립적인 시행 중 성공 횟수 | • 동전 여러 번 던지기 :",
+      "img_path": "img/page026_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 28,
+      "bbox": [
+        225.0,
+        176.2,
+        594.2,
+        257.6
+      ],
+      "area_pts": 30085.7,
+      "vector_obj_count": 6,
+      "surrounding_text": "• 종 모양의 대칭 분포로, 자연 현상에서 많이 나타나는 일반적인 분포 | • 특성 :",
+      "img_path": "img/page028_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 34,
+      "bbox": [
+        54.6,
+        80.5,
+        888.8,
+        343.6
+      ],
+      "area_pts": 219438.5,
+      "vector_obj_count": 3,
+      "surrounding_text": "신뢰구간, 신뢰수준",
+      "img_path": "img/page034_vector00.png"
+    },
+    {
+      "type": "vector_image",
+      "page": 35,
+      "bbox": [
+        111.3,
+        360.4,
+        842.5,
+        415.1
+      ],
+      "area_pts": 39984.2,
+      "vector_obj_count": 14,
+      "surrounding_text": "• 가설 검정 단계",
+      "img_path": "img/page035_vector00.png"
+    },
+    {
+      "type": "table",
+      "page": 38,
+      "bbox": [
+        0.0,
+        -6.103500004428497e-05,
+        959.3063333333333,
+        539.999816895
+      ],
+      "rows": 4,
+      "cols": 4,
+      "data": [
+        [
+          "가설 검정 - 오류\n• 1종 오류 (Type I Error) :\n• 정의 : 귀무가설이 참인데도 불구하고 이를 기각하는 오류\n• 예시 : 새로운 진통제와 기존 진통제의 효과에 차이가 없는데, 새로운 진통제가 더\n효과적이라고 결론 내리는 경우\n• 결과 : 잘못된 긍정(False Positive) 결과 초래\n• 2종 오류 (Type II Error)\n• 정의 : 대립가설이 참인데도 불구하고 귀무가설을 기각하지 않는 오류\n• 예시 : 새로운 진통제가 기존 진통제보다 효과가 있음에도 불구하고, 두 진통제의\n효과 차이가 없다고 결론 내리는 경우\n실제값\n• 결과 : 잘못된 부정(False Negative) 결과 초래\nPositive Negative\nPositive TP FP\n추론\n결과\nNegative FN TN",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "Positive",
+          "Negative"
+        ],
+        [
+          null,
+          "Positive",
+          "TP",
+          "FP"
+        ],
+        [
+          null,
+          "Negative",
+          "FN",
+          "TN"
+        ]
+      ],
+      "surrounding_text": "",
+      "img_path": "img/page038_table00.png"
+    },
+    {
+      "type": "table",
+      "page": 39,
+      "bbox": [
+        56.727,
+        116.72999999999998,
+        891.2700000000001,
+        471.273
+      ],
+      "rows": 4,
+      "cols": 4,
+      "data": [
+        [
+          "검정 방법",
+          "목적",
+          "비교 대상",
+          "예시"
+        ],
+        [
+          "t-검정\n(t-test)",
+          "두 그룹의\n평균 비교",
+          "두 그룹 또는\n한 그룹의 두 상황",
+          "두 학급 간\n평균 성적 비교"
+        ],
+        [
+          "카이제곱 검정\n(Chi-square test)",
+          "데이터 간 독립성\n또는 적합도 검정",
+          "두 범주형 변수\n또는 한 변수",
+          "성별과 흡연여부\n간의 독립성 확인"
+        ],
+        [
+          "분산 분석\n(ANOVA)",
+          "세 그룹 이상의 평균\n비교",
+          "세 그룹 이상",
+          "여러 학급 간\n평균 성적 비교"
+        ]
+      ],
+      "surrounding_text": "",
+      "img_path": "img/page039_table00.png"
+    },
+    {
+      "type": "table",
+      "page": 40,
+      "bbox": [
+        54.248000000000005,
+        202.9052,
+        888.79,
+        500.28499999999997
+      ],
+      "rows": 4,
+      "cols": 4,
+      "data": [
+        [
+          "검정 방법",
+          "목적",
+          "비교 대상",
+          "예시"
+        ],
+        [
+          "단일 표본 t-검정\n(One-sample t-test)",
+          "특정 값과의 비교",
+          "한 그룹",
+          "한 학급의 평균\n성적이 70점인지 확인"
+        ],
+        [
+          "독립 표본 t-검정\n(Independent two-\nsample t-test)",
+          "두 그룹의 평균 비교",
+          "두 그룹",
+          "남학생과 여학생의\n평균 성적 비교"
+        ],
+        [
+          "대응 표본 t-검정\n(Paired sample t-test)",
+          "같은 그룹의\n두 상황 비교",
+          "한 그룹의\n두 상황",
+          "다이어트 전후의\n체중 비교"
+        ]
+      ],
+      "surrounding_text": "",
+      "img_path": "img/page040_table00.png"
+    },
+    {
+      "type": "table",
+      "page": 41,
+      "bbox": [
+        56.411,
+        222.14319999999998,
+        890.96,
+        498.571
+      ],
+      "rows": 4,
+      "cols": 4,
+      "data": [
+        [
+          "검정 방법",
+          "목적",
+          "비교 대상",
+          "예시"
+        ],
+        [
+          "적합도 검정\n(Goodness of fit test)",
+          "관찰 빈도와 기대 빈도\n의 일치 여부",
+          "하나의\n범주형 변수",
+          "주사위 굴리기 결과의\n기대와 일치 확인"
+        ],
+        [
+          "독립성 검정\n(test of independence)",
+          "두 변수 간의\n독립성 확인",
+          "두 범주형\n변수",
+          "성별과 흡연 여부간의\n독립성 확인"
+        ],
+        [
+          "동질성 검정\n(test of homogeneity)",
+          "여러 표본이 동일한\n분포를 따르는지 확인",
+          "두개 이상의\n범주형 변수",
+          "여러 지역의\n질병 발생률 비교"
+        ]
+      ],
+      "surrounding_text": "• 두 범주형 데이터에서 변수 간 독립성 여부를 검정할 때 사용",
+      "img_path": "img/page041_table00.png"
+    },
+    {
+      "type": "table",
+      "page": 42,
+      "bbox": [
+        58.575,
+        221.24519999999998,
+        893.12,
+        440.425
+      ],
+      "rows": 3,
+      "cols": 4,
+      "data": [
+        [
+          "검정 방법",
+          "목적",
+          "비교 대상",
+          "예시"
+        ],
+        [
+          "일원 분산 분석\n(One-way ANOVA)",
+          "한 요인에 대한\n평균 비교",
+          "여러 그룹",
+          "여러 학급 간 평균\n성적 비교"
+        ],
+        [
+          "이원 분산 분석\n(Two-way ANOVA)",
+          "두 요인에 대한\n평균 비교",
+          "여러 그룹",
+          "학급과 성별에 따른\n평균 성적 비교"
+        ]
+      ],
+      "surrounding_text": "",
+      "img_path": "img/page042_table00.png"
+    }
+  ]
+}
