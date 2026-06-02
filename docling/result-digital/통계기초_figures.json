@@ -1,0 +1,197 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      803.7,
+      89.6,
+      873.3,
+      65.8
+    ],
+    "caption": "",
+    "surrounding_text": "",
+    "img_path": "img/page001_fig00.png",
+    "img_saved": true
+  },
+  {
+    "page": 5,
+    "bbox": [
+      33.0,
+      446.3,
+      901.8,
+      16.0
+    ],
+    "caption": "",
+    "surrounding_text": "",
+    "img_path": "img/page005_fig01.png",
+    "img_saved": true
+  },
+  {
+    "page": 18,
+    "bbox": [
+      139.5,
+      205.9,
+      769.8,
+      0.4
+    ],
+    "caption": "",
+    "surrounding_text": "",
+    "img_path": "img/page018_fig02.png",
+    "img_saved": true
+  },
+  {
+    "page": 19,
+    "bbox": [
+      469.8,
+      233.5,
+      942.5,
+      13.9
+    ],
+    "caption": "",
+    "surrounding_text": "",
+    "img_path": "img/page019_fig03.png",
+    "img_saved": true
+  },
+  {
+    "page": 25,
+    "bbox": [
+      630.7,
+      234.7,
+      957.4,
+      5.5
+    ],
+    "caption": "",
+    "surrounding_text": "확률밀도함수 (Probability Density Function : PDF) 로 표현 예 : 정규 분포 , 지수 분포 , 카이제곱 분포 .",
+    "img_path": "img/page025_fig04.png",
+    "img_saved": true
+  },
+  {
+    "page": 26,
+    "bbox": [
+      555.7,
+      289.7,
+      920.9,
+      39.1
+    ],
+    "caption": "",
+    "surrounding_text": "기대값 : 𝐸 𝑋 = 𝑝 예시 : 동전 던지기 ( 앞면 / 뒷면 ) 제품 검수 ( 불량 / 정상 )",
+    "img_path": "img/page026_fig05.png",
+    "img_saved": true
+  },
+  {
+    "page": 27,
+    "bbox": [
+      602.7,
+      213.3,
+      902.0,
+      30.2
+    ],
+    "caption": "",
+    "surrounding_text": "동전을 20 번 던져서 앞면이 나오는 횟수 .",
+    "img_path": "img/page027_fig06.png",
+    "img_saved": true
+  },
+  {
+    "page": 28,
+    "bbox": [
+      585.9,
+      260.2,
+      927.9,
+      31.9
+    ],
+    "caption": "",
+    "surrounding_text": "· 예시 : 콜센터 : 1 시간 동안 걸려오는 전화의 수 교통량 : 특정 도로에서 1 시간 발생하는 교통사고 수 동안",
+    "img_path": "img/page028_fig07.png",
+    "img_saved": true
+  },
+  {
+    "page": 29,
+    "bbox": [
+      536.7,
+      294.4,
+      928.6,
+      23.9
+    ],
+    "caption": "",
+    "surrounding_text": "평균 𝜇 를 중심으로 대칭 확률변수의 68% 가 𝜇 ± 𝜎 , 95% 가 𝜇 ± 2𝜎, 99.7% 가 𝜇 ± 3𝜎 범위 내에 위치함 · 예시 : 키 : 성인의 키 분포",
+    "img_path": "img/page029_fig08.png",
+    "img_saved": true
+  },
+  {
+    "page": 30,
+    "bbox": [
+      447.4,
+      181.7,
+      922.2,
+      19.5
+    ],
+    "caption": "",
+    "surrounding_text": "",
+    "img_path": "img/page030_fig09.png",
+    "img_saved": true
+  },
+  {
+    "page": 31,
+    "bbox": [
+      587.0,
+      227.2,
+      933.3,
+      27.0
+    ],
+    "caption": "",
+    "surrounding_text": "적합도 검정 : 관찰된 데이터가 기대 분포와 일치하는지 검정 분산 분석 : 여러 집단의 분산을 비교",
+    "img_path": "img/page031_fig10.png",
+    "img_saved": true
+  },
+  {
+    "page": 35,
+    "bbox": [
+      540.4,
+      314.0,
+      939.1,
+      23.8
+    ],
+    "caption": "",
+    "surrounding_text": "모수가 신뢰구간에 포함되지 않을 확률",
+    "img_path": "img/page035_fig11.png",
+    "img_saved": true
+  },
+  {
+    "page": 36,
+    "bbox": [
+      109.4,
+      181.5,
+      842.4,
+      123.5
+    ],
+    "caption": "",
+    "surrounding_text": "· 가설 검정 단계",
+    "img_path": "img/page036_fig12.png",
+    "img_saved": true
+  },
+  {
+    "page": 39,
+    "bbox": [
+      724.9,
+      126.8,
+      958.5,
+      0.2
+    ],
+    "caption": "",
+    "surrounding_text": "결과 : 잘못된 부정 (False Negative) 결과 초래 실제값 추론 결과",
+    "img_path": "img/page039_fig13.png",
+    "img_saved": true
+  },
+  {
+    "page": 45,
+    "bbox": [
+      552.1,
+      160.0,
+      936.8,
+      21.7
+    ],
+    "caption": "",
+    "surrounding_text": "강한 상관관계 : 상관계수의 절댓값이 0.7 이상 중간 상관관계 : 상관계수의 절댓값이 0.3~0.7 사이 약한 상관관계 : 상관계수의 절댓값이 0.3 미만",
+    "img_path": "img/page045_fig14.png",
+    "img_saved": true
+  }
+]
