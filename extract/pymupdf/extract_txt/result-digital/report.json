@@ -1,0 +1,201 @@
+{
+  "pdf_path": "..\\data\\raw\\통계기초.pdf",
+  "total_pages": 48,
+  "non_empty_pages": 48,
+  "total_chars": 12681,
+  "elapsed_sec": 0.17,
+  "pages": [
+    {
+      "page": 0,
+      "char_count": 120
+    },
+    {
+      "page": 1,
+      "char_count": 37
+    },
+    {
+      "page": 2,
+      "char_count": 224
+    },
+    {
+      "page": 3,
+      "char_count": 275
+    },
+    {
+      "page": 4,
+      "char_count": 242
+    },
+    {
+      "page": 5,
+      "char_count": 327
+    },
+    {
+      "page": 6,
+      "char_count": 37
+    },
+    {
+      "page": 7,
+      "char_count": 290
+    },
+    {
+      "page": 8,
+      "char_count": 287
+    },
+    {
+      "page": 9,
+      "char_count": 275
+    },
+    {
+      "page": 10,
+      "char_count": 369
+    },
+    {
+      "page": 11,
+      "char_count": 260
+    },
+    {
+      "page": 12,
+      "char_count": 184
+    },
+    {
+      "page": 13,
+      "char_count": 209
+    },
+    {
+      "page": 14,
+      "char_count": 191
+    },
+    {
+      "page": 15,
+      "char_count": 205
+    },
+    {
+      "page": 16,
+      "char_count": 123
+    },
+    {
+      "page": 17,
+      "char_count": 235
+    },
+    {
+      "page": 18,
+      "char_count": 277
+    },
+    {
+      "page": 19,
+      "char_count": 375
+    },
+    {
+      "page": 20,
+      "char_count": 37
+    },
+    {
+      "page": 21,
+      "char_count": 365
+    },
+    {
+      "page": 22,
+      "char_count": 267
+    },
+    {
+      "page": 23,
+      "char_count": 444
+    },
+    {
+      "page": 24,
+      "char_count": 371
+    },
+    {
+      "page": 25,
+      "char_count": 367
+    },
+    {
+      "page": 26,
+      "char_count": 276
+    },
+    {
+      "page": 27,
+      "char_count": 302
+    },
+    {
+      "page": 28,
+      "char_count": 286
+    },
+    {
+      "page": 29,
+      "char_count": 194
+    },
+    {
+      "page": 30,
+      "char_count": 251
+    },
+    {
+      "page": 31,
+      "char_count": 37
+    },
+    {
+      "page": 32,
+      "char_count": 371
+    },
+    {
+      "page": 33,
+      "char_count": 389
+    },
+    {
+      "page": 34,
+      "char_count": 230
+    },
+    {
+      "page": 35,
+      "char_count": 252
+    },
+    {
+      "page": 36,
+      "char_count": 188
+    },
+    {
+      "page": 37,
+      "char_count": 330
+    },
+    {
+      "page": 38,
+      "char_count": 399
+    },
+    {
+      "page": 39,
+      "char_count": 232
+    },
+    {
+      "page": 40,
+      "char_count": 318
+    },
+    {
+      "page": 41,
+      "char_count": 390
+    },
+    {
+      "page": 42,
+      "char_count": 242
+    },
+    {
+      "page": 43,
+      "char_count": 37
+    },
+    {
+      "page": 44,
+      "char_count": 360
+    },
+    {
+      "page": 45,
+      "char_count": 367
+    },
+    {
+      "page": 46,
+      "char_count": 429
+    },
+    {
+      "page": 47,
+      "char_count": 408
+    }
+  ]
+}

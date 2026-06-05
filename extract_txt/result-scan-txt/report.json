@@ -1,0 +1,259 @@
+{
+  "pdf_path": "C:\\Users\\USER\\ms-project3\\preprocess\\data\\raw\\국사교과서.pdf",
+  "total_pages": 50,
+  "non_empty_pages": 50,
+  "total_chars": 41236,
+  "elapsed_sec": 520.71,
+  "pages": [
+    {
+      "page": 0,
+      "char_count": 187,
+      "elapsed_sec": 11.42
+    },
+    {
+      "page": 1,
+      "char_count": 525,
+      "elapsed_sec": 8.81
+    },
+    {
+      "page": 2,
+      "char_count": 443,
+      "elapsed_sec": 7.99
+    },
+    {
+      "page": 3,
+      "char_count": 1088,
+      "elapsed_sec": 8.26
+    },
+    {
+      "page": 4,
+      "char_count": 902,
+      "elapsed_sec": 8.24
+    },
+    {
+      "page": 5,
+      "char_count": 808,
+      "elapsed_sec": 6.55
+    },
+    {
+      "page": 6,
+      "char_count": 688,
+      "elapsed_sec": 21.25
+    },
+    {
+      "page": 7,
+      "char_count": 1071,
+      "elapsed_sec": 6.8
+    },
+    {
+      "page": 8,
+      "char_count": 1004,
+      "elapsed_sec": 10.43
+    },
+    {
+      "page": 9,
+      "char_count": 643,
+      "elapsed_sec": 15.42
+    },
+    {
+      "page": 10,
+      "char_count": 860,
+      "elapsed_sec": 7.59
+    },
+    {
+      "page": 11,
+      "char_count": 933,
+      "elapsed_sec": 7.47
+    },
+    {
+      "page": 12,
+      "char_count": 847,
+      "elapsed_sec": 15.3
+    },
+    {
+      "page": 13,
+      "char_count": 966,
+      "elapsed_sec": 11.99
+    },
+    {
+      "page": 14,
+      "char_count": 453,
+      "elapsed_sec": 7.47
+    },
+    {
+      "page": 15,
+      "char_count": 1284,
+      "elapsed_sec": 13.42
+    },
+    {
+      "page": 16,
+      "char_count": 1058,
+      "elapsed_sec": 8.67
+    },
+    {
+      "page": 17,
+      "char_count": 1026,
+      "elapsed_sec": 11.42
+    },
+    {
+      "page": 18,
+      "char_count": 806,
+      "elapsed_sec": 14.18
+    },
+    {
+      "page": 19,
+      "char_count": 743,
+      "elapsed_sec": 6.57
+    },
+    {
+      "page": 20,
+      "char_count": 991,
+      "elapsed_sec": 8.46
+    },
+    {
+      "page": 21,
+      "char_count": 722,
+      "elapsed_sec": 7.93
+    },
+    {
+      "page": 22,
+      "char_count": 448,
+      "elapsed_sec": 8.1
+    },
+    {
+      "page": 23,
+      "char_count": 1014,
+      "elapsed_sec": 10.06
+    },
+    {
+      "page": 24,
+      "char_count": 553,
+      "elapsed_sec": 14.03
+    },
+    {
+      "page": 25,
+      "char_count": 1259,
+      "elapsed_sec": 13.18
+    },
+    {
+      "page": 26,
+      "char_count": 755,
+      "elapsed_sec": 7.88
+    },
+    {
+      "page": 27,
+      "char_count": 796,
+      "elapsed_sec": 7.41
+    },
+    {
+      "page": 28,
+      "char_count": 793,
+      "elapsed_sec": 7.47
+    },
+    {
+      "page": 29,
+      "char_count": 1119,
+      "elapsed_sec": 6.99
+    },
+    {
+      "page": 30,
+      "char_count": 603,
+      "elapsed_sec": 7.43
+    },
+    {
+      "page": 31,
+      "char_count": 981,
+      "elapsed_sec": 15.18
+    },
+    {
+      "page": 32,
+      "char_count": 1186,
+      "elapsed_sec": 11.72
+    },
+    {
+      "page": 33,
+      "char_count": 1076,
+      "elapsed_sec": 8.03
+    },
+    {
+      "page": 34,
+      "char_count": 112,
+      "elapsed_sec": 18.91
+    },
+    {
+      "page": 35,
+      "char_count": 604,
+      "elapsed_sec": 9.39
+    },
+    {
+      "page": 36,
+      "char_count": 411,
+      "elapsed_sec": 7.55
+    },
+    {
+      "page": 37,
+      "char_count": 658,
+      "elapsed_sec": 6.93
+    },
+    {
+      "page": 38,
+      "char_count": 1271,
+      "elapsed_sec": 8.77
+    },
+    {
+      "page": 39,
+      "char_count": 941,
+      "elapsed_sec": 6.73
+    },
+    {
+      "page": 40,
+      "char_count": 609,
+      "elapsed_sec": 8.7
+    },
+    {
+      "page": 41,
+      "char_count": 1113,
+      "elapsed_sec": 18.42
+    },
+    {
+      "page": 42,
+      "char_count": 982,
+      "elapsed_sec": 8.75
+    },
+    {
+      "page": 43,
+      "char_count": 718,
+      "elapsed_sec": 6.66
+    },
+    {
+      "page": 44,
+      "char_count": 938,
+      "elapsed_sec": 7.15
+    },
+    {
+      "page": 45,
+      "char_count": 911,
+      "elapsed_sec": 10.67
+    },
+    {
+      "page": 46,
+      "char_count": 862,
+      "elapsed_sec": 7.73
+    },
+    {
+      "page": 47,
+      "char_count": 1192,
+      "elapsed_sec": 19.57
+    },
+    {
+      "page": 48,
+      "char_count": 816,
+      "elapsed_sec": 8.21
+    },
+    {
+      "page": 49,
+      "char_count": 467,
+      "elapsed_sec": 6.48
+    }
+  ]
+}
