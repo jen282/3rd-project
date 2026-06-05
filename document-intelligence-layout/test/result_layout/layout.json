@@ -1,0 +1,66 @@
+[
+  {
+    "page": 1,
+    "paragraphs": [
+      {
+        "role": "title",
+        "content": "통계 기초 머신러닝을 위한 통계 기초 개념 및 용어 알아보기",
+        "bbox_in": [
+          1.3763,
+          1.0889,
+          8.8466,
+          2.3458
+        ]
+      },
+      {
+        "role": "pageFooter",
+        "content": "이 자료는 Elixirr의 사전 서면 승인 없이 외부에 배포하기 위해 그 일부를 배포, 인용 또는 복제 할 수 없습니다.",
+        "bbox_in": [
+          0.7186,
+          6.702,
+          3.8096,
+          6.9864
+        ]
+      },
+      {
+        "role": "pageFooter",
+        "content": "Copyright Elixir :selected:",
+        "bbox_in": [
+          0.7203,
+          7.0495,
+          1.7136,
+          7.1906
+        ]
+      },
+      {
+        "role": "body",
+        "content": "강명호",
+        "bbox_in": [
+          11.1577,
+          6.2386,
+          12.1421,
+          6.6035
+        ]
+      }
+    ],
+    "tables": [],
+    "figures": []
+  },
+  {
+    "page": 2,
+    "paragraphs": [
+      {
+        "role": "body",
+        "content": "통계의 기본 개념 기술 통계 확률과 분포 추정과 가설검정 상관분석",
+        "bbox_in": [
+          1.8838,
+          1.9383,
+          5.2955,
+          5.612
+        ]
+      }
+    ],
+    "tables": [],
+    "figures": []
+  }
+]

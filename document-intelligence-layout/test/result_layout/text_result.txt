@@ -1,0 +1,15 @@
+============================================================
+Document Intelligence text extraction result
+PDF: 통계기초.pdf
+============================================================
+
+[page 1] paragraphs=4  tables=0  figures=0
+--------------------------------------------------
+[ParagraphRole.TITLE] 통계 기초 머신러닝을 위한 통계 기초 개념 및 용어 알아보기
+[ParagraphRole.PAGE_FOOTER] 이 자료는 Elixirr의 사전 서면 승인 없이 외부에 배포하기 위해 그 일부를 배포, 인용 또는 복제 할 수 없습니다.
+[ParagraphRole.PAGE_FOOTER] Copyright Elixir :selected:
+[body] 강명호
+
+[page 2] paragraphs=1  tables=0  figures=0
+--------------------------------------------------
+[body] 통계의 기본 개념 기술 통계 확률과 분포 추정과 가설검정 상관분석
