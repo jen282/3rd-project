@@ -1,5 +1,32 @@
+# 환경변수
 .env
+
+# 이미지/문서
 *.png
 *.jpeg
 *.txt
 *.html
+
+# 가상환경 (venv / virtualenv)
+nlp/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+.venv/
+venv/
+env/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 빌드/배포
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
