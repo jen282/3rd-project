@@ -30,3 +30,6 @@ build/
 # IDE
 .vscode/
 .idea/
+
+# 결과
+raw_response.json
